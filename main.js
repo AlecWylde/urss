@@ -5,8 +5,8 @@ while(nomeUsuário == ""){
     nomeUsuário = prompt("Você é professor?");
 }
 
-if(nomeUsuário == Sim){
-    elemento.textContent = 'Tovarisch';
+if(nomeUsuário == null){
+    elemento.textContent = 'Sinto Muito';
 }else{
     elemento.textContent = nomeUsuário;
 }
